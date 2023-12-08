@@ -15,6 +15,7 @@ import ProgressBar from "../../ui-components/common/ProgressBar"
 import { useGoogleLogin, GoogleLogin } from "@react-oauth/google"
 import GoogleImage from "../../assets/images/google.png"
 import AuthHeader from "./AuthHeader"
+import EarthCanvas from "../../ui-components/common/earth"
 
 const RegisterPage = () => {
     // state
@@ -135,9 +136,12 @@ const RegisterPage = () => {
         <>
             <AuthHeader type="login" />
             <div
-                className={`flex min-h-full flex-col justify-center py-2 sm:px-6 lg:px-8`}
+                className={`flex min-h-full justify-center py-2 sm:px-6 lg:px-8`}
             >
-                <div className="sm:mx-auto sm:w-full sm:max-w-md">
+                <div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] w-[400px] mt-10">
+                    <EarthCanvas />
+                </div>
+                <div className="  min-w-[400px] sm:mx-auto sm:w-full sm:max-w-md">
                     <div>
                         <h2 className="mt-4 text-center text-3xl font-bold tracking-tight text-gray-900">
                             Welcome to{" "}

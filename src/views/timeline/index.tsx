@@ -20,6 +20,7 @@ import CraftCardComponents from "./components/CraftComponent"
 import useAppSelector from "../../hooks/useAppSelector"
 import useApi from "../../hooks/useApi"
 import craft from "../../api/craft"
+import EarthCanvas from "../../ui-components/common/earth"
 
 const navigation = [
     { name: "Timeline", href: "/timeline", icon: HomeIcon, current: false },
@@ -453,6 +454,9 @@ export default function Timeline() {
                                         </button>
                                     </Link>
                                 </div>
+                            </div>
+                            <div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
+                                <EarthCanvas />
                             </div>
                             {craftList.map((craft: CraftType) => (
                                 <Link to={`/craft/${craft.id}`}>
