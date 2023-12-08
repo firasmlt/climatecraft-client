@@ -119,7 +119,7 @@ const RegisterPage = () => {
         }
 
         if (isSuccess) {
-            navigate("/dashboard")
+            navigate("/timeline")
         }
 
         if (isLoading) {
@@ -189,7 +189,7 @@ const RegisterPage = () => {
                                                 firstName: e.target.value,
                                             })
                                         }}
-                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
+                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] q focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
                                         style={{
                                             backgroundColor:
                                                 unvalidProperties.includes(
@@ -227,7 +227,7 @@ const RegisterPage = () => {
                                                 lastName: e.target.value,
                                             })
                                         }}
-                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
+                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] q focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
                                         style={{
                                             backgroundColor:
                                                 unvalidProperties.includes(
@@ -265,7 +265,7 @@ const RegisterPage = () => {
                                                 email: e.target.value,
                                             })
                                         }}
-                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
+                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] q focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
                                         style={{
                                             backgroundColor:
                                                 unvalidProperties.includes(
@@ -304,7 +304,7 @@ const RegisterPage = () => {
                                                 password: e.target.value,
                                             })
                                         }}
-                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
+                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] q focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
                                         style={{
                                             backgroundColor:
                                                 unvalidProperties.includes(
@@ -339,7 +339,7 @@ const RegisterPage = () => {
                                             )
                                             setPasswordConfirm(e.target.value)
                                         }}
-                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
+                                        className={`block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] q focus:outline-none focus:ring-[#29ADB2] sm:text-sm`}
                                         style={{
                                             backgroundColor:
                                                 unvalidProperties.includes(

@@ -26,8 +26,6 @@ const verifyTokenApi = (
         resetToken: token,
     })
 
-// const updateAPI = (id, body) => client.put(`/apikey/${id}`, body)
-
 // const deleteAPI = (id) => client.delete(`/apikey/${id}`)
 
 export default {

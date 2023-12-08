@@ -74,7 +74,7 @@ const LoginPage = () => {
             setErrorMessage("Invalid credentials")
         }
         if (isSuccess) {
-            navigate("/dashboard")
+            navigate("/timeline")
         }
     }, [isError, isLoading, isSuccess, message])
 
@@ -135,7 +135,7 @@ const LoginPage = () => {
                                                 setErrorMessage("")
                                                 setShowInputIncorrect(false)
                                             }}
-                                            className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm"
+                                            className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] focus:outline-none focus:ring-[#29ADB2] sm:text-sm"
                                             style={{
                                                 backgroundColor:
                                                     showInputIncorrect
@@ -167,7 +167,7 @@ const LoginPage = () => {
                                                 })
                                                 setShowInputIncorrect(false)
                                             }}
-                                            className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-red-300 focus:outline-none focus:ring-[#29ADB2] sm:text-sm"
+                                            className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-[#29ADB2] focus:outline-none focus:ring-[#29ADB2] sm:text-sm"
                                             style={{
                                                 backgroundColor:
                                                     showInputIncorrect

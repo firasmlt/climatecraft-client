@@ -1,8 +1,6 @@
-import MinimalLayout from "../ui-components/layout/MinimalLayout"
 import Craft from "../views/craft"
-const FlowRoutes = {
+const CraftRoutes = {
     path: "/",
-    element: <MinimalLayout />,
     children: [
         {
             path: "/craft/",
@@ -15,4 +13,4 @@ const FlowRoutes = {
     ],
 }
 
-export default FlowRoutes
+export default CraftRoutes

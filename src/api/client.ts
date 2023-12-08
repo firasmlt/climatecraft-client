@@ -7,11 +7,4 @@ const apiClient = axios.create({
     },
 })
 
-const predictClient = axios.create({
-    baseURL: `http://localhost:5050`,
-    headers: {
-        "Content-type": "application/json",
-    },
-})
-
-export { apiClient, predictClient }
+export { apiClient }
